@@ -1,6 +1,6 @@
-# Summary
+﻿# Summary
 * [시작](README.md)
-    * [Git?](Posts/)
+    * [Git?]()
     * [왜 Git을 써야하는가?]()
     * [Git vs SVN]()
     * [Git설치]()
