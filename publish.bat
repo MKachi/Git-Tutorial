@@ -10,5 +10,5 @@ git clean -fx node_modules
 git clean -fx _book
 
 git add .
-git commit -a -m "Update book"
+git commit -m "Update book"
 git push -u origin master
