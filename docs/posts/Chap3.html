@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Git? · GitBook</title>
+        <title>Git vs SVN · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Chap2.html" />
+    <link rel="next" href="Chap4.html" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="Chap2.html" />
     
 
     </head>
@@ -103,7 +103,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.1.1" data-path="Chap1.html">
+        <li class="chapter " data-level="1.1.1" data-path="Chap1.html">
             
                 <a href="Chap1.html">
             
@@ -129,7 +129,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.3" data-path="Chap3.html">
+        <li class="chapter active" data-level="1.1.3" data-path="Chap3.html">
             
                 <a href="Chap3.html">
             
@@ -533,7 +533,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Git?</a>
+        <a href=".." >Git vs SVN</a>
     </h1>
 </div>
 
@@ -548,15 +548,11 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="git">Git?</h1>
-<p><img src="img/Chap1.png" alt="Git">  </p>
-<pre><code>&#xC624;&#xD508;&#xC18C;&#xC2A4;&#xACC4;&#xC758; &#xC601;&#xC6D0;&#xD55C; &#xC544;&#xC774;&#xB3CC; &#xB9AC;&#xB204;&#xC2A4; &#xD1A0;&#xBC1C;&#xC988;&#xB294; &#xB9AC;&#xB205;&#xC2A4; &#xCEE4;&#xB110;&#xC744; &#xAD00;&#xB9AC;&#xD558;&#xB294; &#xAE30;&#xC874; &#xD234;&#xC774; &#xC5C9;&#xB9DD;&#xC778; &#xAC83;&#xC5D0; &#xB108;&#xBB34; &#xBE61;&#xCE5C; &#xBC14;&#xB78C;&#xC5D0; git&#xC774;&#xB77C;&#xB294; &#xC18C;&#xC2A4;&#xAD00;&#xB9AC; &#xD234;&#xC744; &#xB9CC;&#xB4E0;&#xB2E4;.
-&#xB9AC;&#xB204;&#xC2A4;&#xB294; &#xD558;&#xB3C4; &#xBE61;&#xCE5C; &#xB098;&#xBA38;&#xC9C0;, &#xB2E8; 2&#xC8FC;&#xB9CC;&#xC5D0; &#xC644;&#xC131;&#xD558;&#xB294; &#xAE30;&#xC5FC;&#xC744; &#xD1A0;&#xD588;&#xB2E4;.
-(&#xADF8;&#xB7EC;&#xACE0;&#xB294; &#xD6C4;&#xC5D0; &quot;git&#xC744; &#xB9CC;&#xB4DC;&#xB294;&#xAC8C; &#xC81C;&#xC77C; &#xC26C;&#xC6E0;&#xC5B4;&#xC694;&quot;&#xB77C;&#xB294; &#xC778;&#xD130;&#xBDF0;&#xB85C; &#xB098;&#xC640; &#xAC19;&#xC740; &#xBE60;&#xB3CC;&#xC774;&#xB97C; &#xC9C0;&#xB9AC;&#xAC8C; &#xD588;&#xB2E4;.)
-- &#xC624;&#xD508;&#xC18C;&#xC2A4;&#xC758; &#xC2B9;&#xB9AC; &#xC911;&#xC5D0;&#xC11C;
-</code></pre><p>&#xAE43;(Git)&#xC740; &#xCEF4;&#xD4E8;&#xD130; &#xD30C;&#xC77C;&#xC758; &#xBCC0;&#xACBD;&#xC0AC;&#xD56D;&#xC744; &#xCD94;&#xC801;&#xD558;&#xACE0; &#xC5EC;&#xB7EC; &#xBA85;&#xC758; &#xC0AC;&#xC6A9;&#xC790;&#xB4E4; &#xAC04;&#xC5D0; &#xD574;&#xB2F9; &#xD30C;&#xC77C;&#xB4E4;&#xC758; &#xC791;&#xC5C5;&#xC744; &#xC870;&#xC728;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xBD84;&#xC0B0; &#xBC84;&#xC804; &#xAD00;&#xB9AC; &#xC2DC;&#xC2A4;&#xD15C;&#xC774;&#xB2E4;.  </p>
-<p><a href="https://namu.wiki/w/Git" target="_blank">&#xCD9C;&#xCC98; - &#xD0B9;&#xBB34;&#xAC13;&#xD0A4;</a>
-<a href="https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4" target="_blank">&#xCD9C;&#xCC98; - &#xC704;&#xD0A4;&#xBC31;&#xACFC;</a>)</p>
+                                <h1 id="git-vs-svn">Git vs SVN</h1>
+<h3 id="svn">SVN</h3>
+<p><img src="../img/chap3/1.png" alt="cvcs"><br>SVN&#xC740; <code>&#xC911;&#xC559; &#xC9D1;&#xC911;&#xC2DD; &#xBC84;&#xC804; &#xAD00;&#xB9AC; &#xC2DC;&#xC2A4;&#xD15C; (Centeralized Version Control System)</code> &#xC774;&#xB2E4;.<br><code>CVCS&#xC5D0;&#xC120;</code> &#xBC84;&#xC804; &#xAD00;&#xB9AC;&#xAC00; &#xB418;&#xB294; &#xC911;&#xC559; &#xC11C;&#xBC84;&#xAC00; &#xC788;&#xACE0; &#xC911;&#xC559; &#xC11C;&#xBC84;&#xC5D0;&#xC11C; &#xD30C;&#xC77C;&#xB4E4;&#xC744; <code>Checkout</code> &#xD558;&#xB294; &#xB2E4;&#xC218;&#xC758; &#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8;&#xAC00; &#xC788;&#xB2E4;.<br>&#xC774;&#xB7EC;&#xD55C; &#xAD6C;&#xC870;&#xB294; &#xC911;&#xC559; &#xC11C;&#xBC84;&#xAC00; &#xC798;&#xBABB;&#xB420; &#xACBD;&#xC6B0; &#xBAA8;&#xB4E0; &#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8;&#xAC00; &#xC798;&#xBABB;&#xB41C;&#xB2E4;&#xB294; &#xC810;&#xC774;&#xB2E4;.<br>&#xB9CC;&#xC57D; &#xC11C;&#xBC84;&#xAC00; &#xB2E4;&#xC6B4;&#xB420; &#xACBD;&#xC6B0; &#xC11C;&#xBC84;&#xAC00; &#xB2E4;&#xC2DC; &#xBCF5;&#xAD6C; &#xB420; &#xB54C;&#xAE4C;&#xC9C0; &#xB2E4;&#xB978;&#xC0AC;&#xB78C;&#xACFC;&#xC758; &#xD611;&#xC5C5;&#xC774;&#xB098; &#xC9C4;&#xD589; &#xC911;&#xC774;&#xB358; &#xC791;&#xC5C5;&#xC758; &#xBC84;&#xC804;&#xAD00;&#xB9AC; &#xB610;&#xD55C; &#xC5B4;&#xB824;&#xC6CC;&#xC9C0;&#xAC8C; &#xB41C;&#xB2E4;.<br><code>Branch</code>&#xB97C; &#xB098;&#xB204;&#xC5C8;&#xC744; &#xB54C; &#xBAA8;&#xB4E0; <code>Branch</code>&#xB97C; <code>Checkout</code>&#xD55C;&#xB2E4;.  </p>
+<h3 id="git">Git</h3>
+<p><img src="../img/chap3/2.png" alt="dvcs"><br>Git&#xC740; <code>&#xBD84;&#xC0B0; &#xBC84;&#xC804; &#xAD00;&#xB9AC; &#xC2DC;&#xC2A4;&#xD15C; (Distributed Version Control System)</code> &#xC774;&#xB2E4;.<br>DVCS&#xC5D0;&#xC11C;&#xB294; &#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8;&#xAC00; &#xD30C;&#xC77C;&#xB4E4;&#xC758; &#xB9C8;&#xC9C0;&#xB9C9; Snapshot&#xC744; &#xAC00;&#xC838;&#xC624;&#xB294; &#xB300;&#xC2E0; <code>Repository</code>&#xB97C; &#xD1B5;&#xC9F8;&#xB85C; &#xBCF5;&#xC81C;&#xD55C;&#xB2E4;.<br>&#xC774; &#xBC29;&#xBC95;&#xC740; &#xC11C;&#xBC84;&#xC5D0; &#xBB38;&#xC81C;&#xAC00; &#xC0DD;&#xACA8;&#xB3C4; &#xB85C;&#xCEEC;&#xC5D0;&#xC11C; &#xBC84;&#xC804; &#xAD00;&#xB9AC;&#xAC00; &#xC9C4;&#xD589;&#xB418;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC11C;&#xBC84;&#xAC00; &#xB2E4;&#xC6B4;&#xB41C; &#xB3D9;&#xC548;&#xC5D0;&#xB3C4; &#xC791;&#xC5C5;&#xC774; &#xAC00;&#xB2A5;&#xD558;&#xACE0; &#xB2E4;&#xC2DC; &#xBCF5;&#xAD6C;&#xAC00; &#xB418;&#xBA74; &#xC791;&#xC5C5;&#xD588;&#xB358; &#xB0B4;&#xC6A9;&#xB4E4;&#xC744; &#xC11C;&#xBC84;&#xB85C; <code>push</code>&#xD558;&#xBA74; &#xB41C;&#xB2E4;.<br>&#xB610;&#xD55C; &#xC11C;&#xBC84;&#xAC00; &#xD3ED;&#xD30C;&#xB418;&#xC5B4;&#xB3C4; &#xC0AC;&#xC6A9;&#xC790;&#xB4E4;&#xC758; &#xB85C;&#xCEEC; <code>Repository</code>&#xB97C; &#xD1B5;&#xD574;&#xC11C; &#xBCF5;&#xAD6C;&#xAC00; &#xAC00;&#xB2A5;&#xD558;&#xB2E4;.<br><code>Branch</code>&#xB97C; &#xB098;&#xB204;&#xC5C8;&#xC744; &#xB54C; &#xC9C0;&#xC815;&#xD55C; <code>Branch</code>&#xB9CC; <code>clone</code>&#xD55C;&#xB2E4;.  </p>
 
                                 
                                 </section>
@@ -584,12 +580,12 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 시작">
+                <a href="Chap2.html" class="navigation navigation-prev " aria-label="Previous page: 왜 Git을 써야하는가?">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Chap2.html" class="navigation navigation-next " aria-label="Next page: 왜 Git을 써야하는가?">
+                <a href="Chap4.html" class="navigation navigation-next " aria-label="Next page: Git설치">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -600,7 +596,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Git?","level":"1.1.1","depth":2,"next":{"title":"왜 Git을 써야하는가?","level":"1.1.2","depth":2,"path":"posts/Chap2.md","ref":"./posts/Chap2.md","articles":[]},"previous":{"title":"시작","level":"1.1","depth":1,"path":"README.md","ref":"./README.md","articles":[{"title":"Git?","level":"1.1.1","depth":2,"path":"posts/Chap1.md","ref":"./posts/Chap1.md","articles":[]},{"title":"왜 Git을 써야하는가?","level":"1.1.2","depth":2,"path":"posts/Chap2.md","ref":"./posts/Chap2.md","articles":[]},{"title":"Git vs SVN","level":"1.1.3","depth":2,"path":"posts/Chap3.md","ref":"./posts/Chap3.md","articles":[]},{"title":"Git설치","level":"1.1.4","depth":2,"path":"posts/Chap4.md","ref":"./posts/Chap4.md","articles":[]},{"title":"기본 설정","level":"1.1.5","depth":2,"path":"posts/Chap5.md","ref":"./posts/Chap5.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"posts/Chap1.md","mtime":"2019-01-16T02:19:09.251Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-16T05:19:33.360Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git vs SVN","level":"1.1.3","depth":2,"next":{"title":"Git설치","level":"1.1.4","depth":2,"path":"posts/Chap4.md","ref":"./posts/Chap4.md","articles":[]},"previous":{"title":"왜 Git을 써야하는가?","level":"1.1.2","depth":2,"path":"posts/Chap2.md","ref":"./posts/Chap2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"posts/Chap3.md","mtime":"2019-01-16T04:03:03.968Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-16T05:19:33.360Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

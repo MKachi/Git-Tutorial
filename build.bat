@@ -8,7 +8,3 @@ call xcopy /e /h /k _book\*.* docs\
 
 git clean -fx node_modules
 git clean -fx _book
-
-git add .
-git commit -m "Update book"
-git push -u origin master
