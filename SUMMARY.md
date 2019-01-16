@@ -1,7 +1,7 @@
 ﻿# Summary
 * [시작](README.md)
-    * [Git?]()
-    * [왜 Git을 써야하는가?]()
+    * [Git?](posts/Chap1.md)
+    * [왜 Git을 써야하는가?](posts/Chap2.md)
     * [Git vs SVN]()
     * [Git설치]()
     * [기본 설정]()
