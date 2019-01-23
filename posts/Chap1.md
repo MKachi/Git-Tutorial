@@ -9,5 +9,5 @@
   
 깃(Git)은 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다.  
   
-[출처 - 킹무갓키](https://namu.wiki/w/Git)
+[출처 - 킹무갓키](https://namu.wiki/w/Git)  
 [출처 - 위키백과](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
