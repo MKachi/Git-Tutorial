@@ -17,7 +17,7 @@ git remote add [branch] [url]
 git remote add origin https://github.com/mkachi/Tutorial
 ```
   
-![remote1](../img/chap9/1.png)  
+![remote1](../img/global/9.png)  
 아까 생성하였던 `README.md`나 `LICENSE`파일이 보이지 않는 것은 아직 `Repository`를 연결해줬을 뿐이지 `Github`에 있는 `Repository`를 `Checkout`하지 않은 상태이다.  
 
 ### Pull & Checkout
