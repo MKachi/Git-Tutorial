@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Repository 생성 · GitBook</title>
+        <title>Remote · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Chap7.html" />
+    <link rel="next" href="Chap10.html" />
     
+    
+    <link rel="prev" href="Chap8.html" />
     
 
     </head>
@@ -185,7 +187,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.2.1" data-path="Chap6.html">
+        <li class="chapter " data-level="1.2.1" data-path="Chap6.html">
             
                 <a href="Chap6.html">
             
@@ -224,7 +226,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="Chap9.html">
+        <li class="chapter active" data-level="1.2.4" data-path="Chap9.html">
             
                 <a href="Chap9.html">
             
@@ -531,7 +533,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Repository 생성</a>
+        <a href=".." >Remote</a>
     </h1>
 </div>
 
@@ -546,11 +548,23 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="repository-&#xC0DD;&#xC131;">Repository &#xC0DD;&#xC131;</h1>
+                                <h1 id="remote">Remote</h1>
+<p>&#xC6B0;&#xC120; &#xB4A4;&#xCABD; &#xB0B4;&#xC6A9;&#xC5D0;&#xC11C; &#xB9CC;&#xB4E4;&#xC5C8;&#xB358; <code>Repository</code>&#xB294; <code>Local Repository</code>&#xB77C;&#xACE0; &#xD55C;&#xB2E4;.  </p>
+<p>&#xC774; &#xACF3;&#xC5D0;&#xC11C; &#xC544;&#xBB34;&#xB9AC; <code>commit</code>&#xC744; &#xD574;&#xB3C4; Github&#xC5D0; &#xB9CC;&#xB4E4;&#xC5B4;&#xB454; <code>Repository</code>&#xC5D0;&#xB294; &#xC62C;&#xB77C;&#xAC00;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;.<br>&#xADF8;&#xB798;&#xC11C; <code>Remote</code>&#xBA85;&#xB839;&#xC744; &#xD1B5;&#xD574; <code>Github</code>&#xAC19;&#xC740; &#xACF3;&#xC5D0; &#xB9CC;&#xB4E0; <code>Repository</code>&#xB97C; <code>Local Repository</code>&#xC640; &#xC5F0;&#xACB0;&#xD558;&#xB294; &#xAC83;&#xC774;&#xB2E4;.  </p>
+<h3 id="remote-&#xBA85;&#xB839;&#xC744;-&#xC0AC;&#xC6A9;">Remote &#xBA85;&#xB839;&#xC744; &#xC0AC;&#xC6A9;</h3>
 <pre><code class="lang-bash">git init
+git remote add [branch] [url]
 </code></pre>
-<p><code>Repository</code>&#xB97C; &#xC0DD;&#xC131;&#xD560; &#xD3F4;&#xB354;&#xC5D0; <code>GitBash</code>, <code>Cmd</code>, <code>PowerShell</code>, <code>Terminal&#xACFC;</code> &#xAC19;&#xC740; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC744; &#xCF1C;&#xC900;&#xB4A4; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xBA85;&#xB839;&#xC5B4;&#xB97C; &#xC785;&#xB825;&#xD55C;&#xB2E4;.  </p>
-<p>&#xADF8;&#xB7EC;&#xBA74; &#xADF8; &#xD3F4;&#xB354;&#xC5D0; <code>.git</code>&#xC774;&#xB77C;&#xB294; &#xC228;&#xACA8;&#xC9C4; &#xD3F4;&#xB354;&#xAC00; &#xC0DD;&#xC131;&#xC774; &#xB41C;&#xB2E4;.<br>&#xC774; &#xD3F4;&#xB354;&#xC5D0;&#xB294; Git&#xC758; <code>Repository&#xB97C;</code> &#xAD6C;&#xC131;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xAE30;&#xBCF8;&#xC801;&#xC778; &#xD30C;&#xC77C;&#xB4E4;&#xC774; &#xB4E4;&#xC5B4;&#xC788;&#xB2E4;.  </p>
+<p>&#xC6D0;&#xD558;&#xB294; &#xD3F4;&#xB354;&#xC5D0;&#xC11C; <code>git init</code>&#xC744; &#xD1B5;&#xD574; <code>Local Repository</code>&#xB97C; &#xC0DD;&#xC131;&#xD55C; &#xD6C4;<br><code>git remote add origin [url]</code>&#xB85C; &#xC5F0;&#xACB0;&#xD558;&#xBA74; &#xB41C;&#xB2E4;.  </p>
+<p>&#xC608;)  </p>
+<pre><code class="lang-bash">git remote add origin https://github.com/mkachi/Tutorial
+</code></pre>
+<p><img src="../img/chap9/1.png" alt="remote1"><br>&#xC544;&#xAE4C; &#xC0DD;&#xC131;&#xD558;&#xC600;&#xB358; <code>README.md</code>&#xB098; <code>LICENSE</code>&#xD30C;&#xC77C;&#xC774; &#xBCF4;&#xC774;&#xC9C0; &#xC54A;&#xB294; &#xAC83;&#xC740; &#xC544;&#xC9C1; <code>Repository</code>&#xB97C; &#xC5F0;&#xACB0;&#xD574;&#xC92C;&#xC744; &#xBFD0;&#xC774;&#xC9C0; <code>Github</code>&#xC5D0; &#xC788;&#xB294; <code>Repository</code>&#xB97C; <code>Checkout</code>&#xD558;&#xC9C0; &#xC54A;&#xC740; &#xC0C1;&#xD0DC;&#xC774;&#xB2E4;.  </p>
+<h3 id="pull--checkout">Pull &amp; Checkout</h3>
+<pre><code class="lang-bash">git pull
+git checkout [branch]
+</code></pre>
+<p>&#xC704;&#xC640; &#xAC19;&#xC740; &#xBA85;&#xB839;&#xC5B4;&#xB97C; &#xD1B5;&#xD574; branch&#xB97C; &#xC120;&#xD0DD;&#xD574; <code>checkout</code> &#xBC1B;&#xC744; &#xC218; &#xC788;&#xB2E4;.<br>[branch]&#xC5D0;&#xB294; master&#xB97C; &#xC801;&#xC73C;&#xBA74; &#xB41C;&#xB2E4;.<br>master&#xB294; &#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C; &#xC0DD;&#xC131;&#xB418;&#xB294; <code>branch</code>&#xC774;&#xB2E4;.<br>&#xC774; &#xBA85;&#xB839;&#xB4E4;&#xC740; &#xB4A4;&#xC758; &#xB0B4;&#xC6A9;&#xC5D0;&#xC11C; &#xB354; &#xC790;&#xC138;&#xD788; &#xC124;&#xBA85;&#xD560; &#xAC83;&#xC774;&#xB2E4;.  </p>
 
                                 
                                 </section>
@@ -578,8 +592,12 @@
 
             
                 
+                <a href="Chap8.html" class="navigation navigation-prev " aria-label="Previous page: Github">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="Chap7.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Commit">
+                
+                <a href="Chap10.html" class="navigation navigation-next " aria-label="Next page: Clone">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -590,7 +608,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Repository 생성","level":"1.2.1","depth":2,"next":{"title":"Commit","level":"1.2.2","depth":2,"path":"posts/Chap7.md","ref":"./posts/Chap7.md","articles":[]},"previous":{"title":"[초급편]","level":"1.2","depth":1,"ref":"","articles":[{"title":"Repository 생성","level":"1.2.1","depth":2,"path":"posts/Chap6.md","ref":"./posts/Chap6.md","articles":[]},{"title":"Commit","level":"1.2.2","depth":2,"path":"posts/Chap7.md","ref":"./posts/Chap7.md","articles":[]},{"title":"Github","level":"1.2.3","depth":2,"path":"posts/Chap8.md","ref":"./posts/Chap8.md","articles":[]},{"title":"Remote","level":"1.2.4","depth":2,"path":"posts/Chap9.md","ref":"./posts/Chap9.md","articles":[]},{"title":"Clone","level":"1.2.5","depth":2,"path":"posts/Chap10.md","ref":"./posts/Chap10.md","articles":[]},{"title":"Push","level":"1.2.6","depth":2,"ref":"","articles":[]},{"title":"Pull","level":"1.2.7","depth":2,"ref":"","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"posts/Chap6.md","mtime":"2019-01-23T08:30:20.436Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-23T09:09:12.738Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Remote","level":"1.2.4","depth":2,"next":{"title":"Clone","level":"1.2.5","depth":2,"path":"posts/Chap10.md","ref":"./posts/Chap10.md","articles":[]},"previous":{"title":"Github","level":"1.2.3","depth":2,"path":"posts/Chap8.md","ref":"./posts/Chap8.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"posts/Chap9.md","mtime":"2019-01-23T09:05:34.127Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-23T09:09:12.738Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
