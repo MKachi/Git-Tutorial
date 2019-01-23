@@ -5,4 +5,4 @@ git clone [url]
 ```
 즉 이전에 하였던 `Remote`를 `Repository`의 주소만 알고 있다면  
 clone으로 간편히 할 수 있다.  
-![remote1](../img/global/10.png)  
+![Git](../img/global/10.png)  
